@@ -2,13 +2,13 @@ import 'dart:io';
 
 void main() {
   print("Digite a chapa do funcionário:");
-  int chapa = int.parse(stdin.readLineSync( 25)!);
+  int chapa = int.parse(stdin.readLineSync()!);
 
   print("Digite o número de horas trabalhadas:");
-  int horasTrabalhadas = int.parse(stdin.readLineSync( 100)!);
+  int horasTrabalhadas = int.parse(stdin.readLineSync()!);
 
   print("Digite o valor que o funcionário recebe por hora:");
-  double valorHora = double.parse(stdin.readLineSync( 5.50)!);
+  double valorHora = double.parse(stdin.readLineSync()!);
 
   double salario = horasTrabalhadas * valorHora;
 
